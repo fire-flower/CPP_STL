@@ -6,6 +6,7 @@ project(mytest)
 INCLUDE_DIRECTORIES(inc)
 INCLUDE_DIRECTORIES(inc/sequence)
 INCLUDE_DIRECTORIES(inc/associative)
+INCLUDE_DIRECTORIES(inc/algorithms)
 
 
 set (SRC 
@@ -15,6 +16,7 @@ set (SRC
     src/ExPoint.cpp
     src/sequence/ExVector.cpp
     src/associative/ExMap.cpp
+    src/algorithms/ExAlgorithms.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SRC})
