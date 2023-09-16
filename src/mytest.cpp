@@ -2,6 +2,8 @@
 #include "ExFuncObj.h"
 #include "ExTemplate.h"
 #include "ExVector.h"
+#include "ExMap.h"
+#include "ExAlgorithms.h"
 
 void test()
 {
@@ -9,8 +11,12 @@ void test()
     ExFuncObj ex;
 #elif 0
     ExTemplate ex;
-#elif 1
+#elif 0
     ExVector ex;
+#elif 0
+    ExMap ex;
+#elif 1
+    ExAlgorithms ex;
 #endif
     ex.test();
 }
