@@ -1,9 +1,14 @@
+/*
+https://github.com/fire-flower/CPP_STL/
+*/
+
 #include <stdio.h>
 #include "ExFuncObj.h"
 #include "ExTemplate.h"
 #include "ExVector.h"
 #include "ExMap.h"
 #include "ExAlgorithms.h"
+#include "ExIterator.h"
 
 void test()
 {
@@ -15,8 +20,10 @@ void test()
     ExVector ex;
 #elif 0
     ExMap ex;
-#elif 1
+#elif 0
     ExAlgorithms ex;
+#elif 1
+    ExIterator ex;
 #endif
     ex.test();
 }
